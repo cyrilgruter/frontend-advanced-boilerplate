@@ -23,3 +23,46 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.press-logo {
+  img {
+
+    margin-bottom: 0px;
+    height: auto;
+    width: 100px;
+  }
+}
+.fancy-underlined{
+  margin: auto;
+  border-bottom: 5px solid #134E90;
+}
+.step2{
+max-width: 535px;
+}
+.share-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.share-link {
+  margin: auto;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  flex: 0 0 13%;
+  @media (max-width: $screen-sm) {
+    flex: 0 0 25%;
+  }
+  @media (max-width: $screen-xs) {
+    flex: 0 0 40%;
+  }
+  }
+
