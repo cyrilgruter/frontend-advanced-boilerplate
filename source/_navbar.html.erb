@@ -42,7 +42,32 @@
     </div> -->
 
     <!-- Button (call-to-action) -->
-    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Contacter nous!</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn" data-toggle="modal" data-target="#contact">Contactez nous!</a>
+
+
+<!-- Modal -->
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <h4 class="modal-title" id="myModalLabel">
+
+          <form action="https://getsimpleform.com/messages?form_api_token=1f9bf75d0a79e04bd7e5a64a4316a858" method="post">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='<http://localhost:4567/>' />
+            <!-- all your input fields here.... -->
+            <input type='text' name='test' />
+            <input type='submit' value='Envoyer' />
+
+        </h4>
+      </div>
+
+    </div>
+  </div>
+</div>
+
   </div>
 
   <!-- Dropdown appearing on mobile only -->
